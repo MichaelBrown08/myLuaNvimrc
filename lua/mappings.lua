@@ -52,7 +52,7 @@ nmap('go', ':<C-u>CocList outline<CR>')
 nmap('go', ':<C-u>CocList --tab outline<CR>')
 nmap('go', ':<C-u>CocDiagnostics<CR>')
 nmap('<leader>ep', '<Plug>(coc-diagnostic-prev)')
-nmap('<leader>ep', '<Plug>(coc-diagnostic-next)')
+nmap('<leader>en', '<Plug>(coc-diagnostic-next)')
 
 vim.cmd([[
   inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
