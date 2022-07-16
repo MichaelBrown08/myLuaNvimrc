@@ -63,5 +63,5 @@ vim.cmd([[
 
 -- Language-specific content
 ---- Rust
-nmap('<leader>rr', ':RustRun')
-nmap('<leader>rf', ':RustFmt')
+nmap('<leader>rr', ':RustRun<CR>')
+nmap('<leader>rf', ':RustFmt<CR>')
